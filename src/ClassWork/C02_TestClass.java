@@ -1,6 +1,6 @@
 package ClassWork;
 
-public class TestClass {
+public class C02_TestClass {
     static void Addition(int a, int b){
         int sum = a + b;
         System.out.println(sum);
