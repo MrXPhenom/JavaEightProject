@@ -1,6 +1,6 @@
 package ClassWork;
 
-public class Car {
+public class C01_Car {
     String engineModel;
     double weight;
     void showWeightAndEngineModel(){
@@ -8,7 +8,7 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        Car c1 = new Car();
+        C01_Car c1 = new C01_Car();
         c1.engineModel = "V8";
         c1.weight = 1300;
         c1.showWeightAndEngineModel();

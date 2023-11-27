@@ -7,7 +7,7 @@ public class HomeWork2 {
         int a1;
         Scanner sc = new Scanner(System.in);
         a1 = sc.nextInt();
-        int x = a1 / 100 % 10;
+        int x = a1 / 100;
         int y = a1 / 10 % 10;
         int z = a1 % 10;
         int sum = x + y + z;

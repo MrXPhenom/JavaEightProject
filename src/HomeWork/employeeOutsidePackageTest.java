@@ -1,7 +1,9 @@
 package HomeWork;
 
+import HomeWork.HomeWork4.part2.employee;
+
 public class employeeOutsidePackageTest {
-    //    public static void employee() {
+//    public static void employee() {
 //        employee emp = new employee("Zane", 500, 1);
 //        System.out.println(emp.id + " " + emp.surname + " " + emp.salary);
 //    }
