@@ -8,7 +8,6 @@ public class student {
     double mathGrade;
     double economicsGrade;
     double foreignLanguageGrade;
-    int d;
 
     public student(int id, String fName, String lName, int course, int mathGrade, int economicsGrade, int foreignLanguageGrade) {
         this.id = id;
