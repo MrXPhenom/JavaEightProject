@@ -1,15 +1,10 @@
 package HomeWork;
 
 public class Month {
-    public static void longestWordOfThree() {
-        String str1 = "Alan";
-        String str2 = "Alice";
-        String str3 = "Wake";
-
-
-        if (str1.length() > str2.length() && str1.length() > str3.length()) {
+    public static void longestWordOfThree(String word1, String word2, String word3) {
+        if (word1.length() > word2.length() && word1.length() > word3.length()) {
             System.out.println("First word is the longest");
-        } else if (str2.length() > str1.length() && str2.length() > str3.length()) {
+        } else if (word2.length() > word1.length() && word2.length() > word3.length()) {
             System.out.println("Second word is the longest");
         } else {
             System.out.println("Third word is the longest");
@@ -123,7 +118,7 @@ public class Month {
     }
 
     public static void main(String[] args) {
-        longestWordOfThree();
+        longestWordOfThree("Alan", "Alice", "Wake");
         System.out.println();
         daysInMonth(11);
         System.out.println();
